@@ -1,0 +1,15 @@
+int increment(int num) {
+    return num + 1;
+}
+
+int doubleIncrement(int num) {
+    return increment(increment(num));
+}
+
+int main() {
+    int a;
+    int result;
+    a = 5;
+    result = doubleIncrement(a) + 10;
+    return result;
+}

@@ -1,0 +1,7 @@
+char split(char chaine[], char separators){
+    return chaine;
+}
+
+int sub(int a, int b){
+    return a - b;
+}

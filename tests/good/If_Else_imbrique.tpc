@@ -1,0 +1,17 @@
+int analyze(int num) {
+    if (num > 0) {
+        if (num % 2 == 0) {
+            return 2;
+        } else {
+            return 1;
+        }
+    } else {
+        return 0;
+    }
+}
+
+int main() {
+    int value;
+    value = analyze(10);
+    return value;
+}

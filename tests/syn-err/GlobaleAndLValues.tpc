@@ -1,0 +1,14 @@
+int globalvar ;
+globalvar = 100;
+
+int compute(int x) {
+    int localVar;
+    localVar = 5;
+    return globalVar + localVar + x;
+}
+
+int main() {
+    int result;
+    result = compute(20);
+    return result;
+}

@@ -1,0 +1,12 @@
+int add_lst(int lst[], int size){
+    int i;
+    int tmp;
+    i = 0;
+    tmp = 0;
+
+    while(i < size){
+        tmp = tmp + lst[i];    
+        i = i + 1;
+    }
+    return tmp;
+}

@@ -1,0 +1,8 @@
+int sub(int x, int y){
+    int a = 2;
+    return x - y;
+}
+
+int main(void){
+    int res;
+}

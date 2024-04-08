@@ -1,0 +1,6 @@
+int main() {
+    int arr[5];
+    arr["a"] = 10;
+    return 0;
+}
+// a regarder avec Anna

@@ -1,0 +1,11 @@
+int func(int a, int b, int c){
+    if((a == b) || (a == c)){
+        a = 0;
+    }
+    if(a > b && a <= c){
+        a = a + 2;
+    }
+    else{
+        a = a + 1;
+    }
+}

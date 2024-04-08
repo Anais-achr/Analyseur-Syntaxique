@@ -1,0 +1,19 @@
+int check(int num) {
+    if (num > 0) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
+int main() {
+    int a ;
+    int b;
+    int res1;
+    int res2;
+    a = 5;
+    b = -3;
+    res1 = check(a);
+    res2 = check(b);
+    return 0;
+}

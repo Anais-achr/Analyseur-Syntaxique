@@ -1,0 +1,10 @@
+int main() {
+    // This is a simple program
+    char a;
+    char b;
+    a = 'a';
+    b = '\n';
+    /* commentaie sur plusieur ligne
+       Nothing should fail */
+    return 0;
+}

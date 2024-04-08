@@ -1,0 +1,12 @@
+int main(void) {
+    int somme, i;
+    somme = 0;
+    i = 0;
+
+    while (i < taille) {
+        somme = somme + tableau[i];
+        i = i + 1;
+    }
+
+    return somme;
+}

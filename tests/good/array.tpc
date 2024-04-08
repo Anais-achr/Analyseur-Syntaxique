@@ -1,0 +1,6 @@
+int main(int jk[]) {
+    int result;
+    result = 1;
+    result[size] = result[size%3];
+    return 0;
+}

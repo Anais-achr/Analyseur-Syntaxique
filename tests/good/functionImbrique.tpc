@@ -1,0 +1,15 @@
+int square(int num) {
+    return num * num;
+}
+
+int doubleVal(int num) {
+    return 2 * num;
+}
+
+int main() {
+    int a;
+    int result;
+    a = 3;
+    result = square(doubleVal(a));
+    return 0;
+}
